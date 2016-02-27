@@ -279,11 +279,7 @@ StScrollBar StButton#vhandle:hover {
 .panel-button:hover {
 	padding: 0 2px;
 	color: black;
-	border-radius: 5px 5px 5px 5px;
-	background-gradient-direction: vertical;
-	background-gradient-start: rgba(55,55,55,0.11);
-	background-gradient-end: rgba(55,55,55,0.41);
-	transition-duration: 100;
+	border-radius: 1px 1px 1px 1px;
 }
 
 .system-status-icon {
@@ -377,7 +373,7 @@ StScrollBar StButton#vhandle:hover {
 	background-color: #222;
 	border: 1px solid #111;
 	spacing: 25px;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
 	color: #fff;
 	font-weight: bold;
 	padding: 2px 8px;
@@ -908,7 +904,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 	padding: 8px;
 	border-radius: 3px;
 	border: 1px solid transparent;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
 }
 
 .switcher-list .item-box:outlined {
@@ -917,7 +913,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 	background-gradient-start: rgba(52,52,52,1.0);
 	background-gradient-end: rgba(2,2,2,1);
 	border: 1px solid #c3c3c3;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
 	box-shadow: inset 0px 0px 3px 1px rgba(44,44,44,0.1);
 }
 
@@ -927,7 +923,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 	background-gradient-start: rgba(52,52,52,1.0);
 	background-gradient-end: rgba(2,2,2,1);
 	box-shadow: 0px 0px 3px 2px rgba(160,160,160,0.3);
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
 	color: #fff;
 }
 
@@ -1319,7 +1315,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 
 .magnifier-zoom-region {
 	border: 2px solid rgba(128, 0, 0, 1);
-	border-radius: 15px 15px 0px 15px;
+	border-radius: 5px 5px 5px 5px;
 }
 .magnifier-zoom-region.full-screen {
 	border-width: 0px;
@@ -1793,19 +1789,13 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 }
 .applet-box:hover {
 	color: #000;
-
-
-	border-radius: 10px 10px 10px 10px;
-	background-gradient-direction: vertical;
-	background-gradient-start: rgba(55,55,55,0.05);
-	background-gradient-end: rgba(55,55,55,0.21);
+	border-radius: 5px 5px 5px 5px;
+	background-color: rgba(55,55,55,.21);
 }
 .applet-box:active {
 	color: black;
 	border-radius: 10px 10px 10px 10px;
-	background-gradient-direction: vertical;
-	background-gradient-start: rgba(55,55,55,0.11);
-	background-gradient-end: rgba(55,55,55,0.41);
+	background-color: rgba(55,55,55,.21);
 
 }
 .applet-label {	
@@ -1837,7 +1827,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 }
 
 .desklet-with-borders {
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
 
 	background-gradient-direction: vertical;
 	background-gradient-start: rgba(250,250,250,.98);
@@ -1847,7 +1837,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 }
 
 .desklet-with-borders-and-header {
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
 
 	background-gradient-direction: vertical;
 	background-gradient-start: rgba(250,250,250,.98);
@@ -1861,7 +1851,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 	border-radius-topright: 0px;
 	font-size: 10.5pt;
 
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
 
 	background-gradient-direction: vertical;
 	background-gradient-start: rgba(250,250,250,.98);
@@ -1881,7 +1871,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 
 .photoframe-box {
 	padding: 6px;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
 
 	background-gradient-direction: vertical;
 	background-gradient-start: rgba(250,250,250,.98);
@@ -1986,7 +1976,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 	width: 22px;
 	height: 22px;
 	background-image: url("radiobutton-off.svg");
-	border-radius: 15px;
+	border-radius: 5px;
 }
 
 .radiobutton:focus StBin {
@@ -2011,7 +2001,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
  * ===================================================================*/
 
 .user-icon {  
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
 	background-gradient-start: rgba(70,70,70,.2);
 	background-gradient-end: rgba(10,10,10,.2);
 	background-gradient-direction: vertical;
@@ -2035,7 +2025,7 @@ height of the table to be ICON_SIZE + IMAGE_SIZE + spacing-rows = 24 + 125 + 10 
 	border-right: none;
 	border-left: none;
 	border-bottom: none;
-	border-radius: 15px 15px 15px 15px;
+	border-radius: 5px 5px 5px 5px;
 	padding: 20px;
 	color: #fff;
 	text-align: center;     
